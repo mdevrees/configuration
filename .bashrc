@@ -11,3 +11,8 @@ if [ -f $HOME/.local/bin/virtualenvwrapper.sh ]; then
     export WORKON_HOME=$HOME/.virtualenvs
     source $HOME/.local/bin/virtualenvwrapper.sh
 fi
+
+if [ -d $HOME/.pyenv ]; then
+    export PYENV_ROOT="$HOME/.pyenv"
+    export PATH="$PATH:$PYENV_ROOT/bin"
+fi
