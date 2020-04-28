@@ -1,0 +1,12 @@
+dpkg -l | grep gnome-shell-extension
+Installed:
+ii  gnome-shell-extension-appindicator         33-1                                       all          AppIndicator/KStatusNotifierItem support for GNOME Shell
+ii  gnome-shell-extension-desktop-icons        20.04.0-1                                  all          desktop icon support for GNOME Shell
+ii  gnome-shell-extension-prefs                3.36.1-5ubuntu1                            amd64        tool to enable / disable GNOME Shell extensions
+ii  gnome-shell-extension-ubuntu-dock          67ubuntu20.04.5                            all          Ubuntu Dock for GNOME Shell
+
+favorite extensions:
+clipboard indicator: https://extensions.gnome.org/extension/779/clipboard-indicator/
+horizontal workspaces: https://extensions.gnome.org/extension/2141/horizontal-workspaces/
+resource monitor: https://extensions.gnome.org/extension/1634/resource-monitor/
+
