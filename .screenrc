@@ -1,5 +1,6 @@
 #allow scrolling
-termcapinfo xterm* ti@:te@
+#termcapinfo xterm* ti@:te@
+termcapinfo xterm*|rxvt*|kterm*|Eterm* ti@:te@
 
 # Turn off that annoying start up message
 startup_message off
@@ -16,7 +17,7 @@ vbell off
 # Window list at the bottom. hostname, centered tabs and redmarked active windows:
 #shelltitle '$ |'
 hardstatus alwayslastline
-hardstatus string '%{= kG}[ %{G}%H %{g}][%= %{= kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%? %= %{g}][%{B} %m/%d %{W}%c %{g}]'
+#hardstatus string '%{= kG}[ %{G}%H %{g}][%= %{= kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%? %= %{g}][%{B} %m/%d %{W}%c %{g}]'
+hardstatus alwayslastline "%{b kw}%H %{r}%1` %{w}| %{g}%c %{w}| %{y}%d.%m.%Y %{w}| %{g}%l %{w}| %{-b kw}%u %-Lw%{= rW}%50> %n%f %t %{-}%+Lw%<"
 
 defscrollback 50000
-
