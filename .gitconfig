@@ -37,3 +37,5 @@
   autosetuprebase = remote
 [push]
   default = simple
+[fetch]
+  prune = true
