@@ -7,6 +7,14 @@ curl https://raw.githubusercontent.com/mdevrees/configuration/master/.bashrc >> 
 curl https://raw.githubusercontent.com/mdevrees/configuration/master/.screenrc >> ~/.screenrc
 curl https://raw.githubusercontent.com/mdevrees/configuration/master/.gitconfig >> ~/.gitconfig
 ```
+
+or via gitlab
+```bash
+curl https://gitlab.com/mdevrees/configuration/-/raw/master/.bashrc >> ~/.bashrc
+curl https://gitlab.com/mdevrees/configuration/-/raw/master/.screenrc >> ~/.screenrc
+curl https://gitlab.com/mdevrees/configuration/-/raw/master/.gitconfig >> ~/.gitconfig
+
+```
 ## G810-led
 G810 led goes to `/etc/g810-led` and that contains the `profile` file. It contains a profile I like.
 
