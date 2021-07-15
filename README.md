@@ -13,6 +13,7 @@ or via gitlab
 curl https://gitlab.com/m.devrees/configuration/-/raw/master/.bashrc >> ~/.bashrc
 curl https://gitlab.com/m.devrees/configuration/-/raw/master/.screenrc >> ~/.screenrc
 curl https://gitlab.com/m.devrees/configuration/-/raw/master/.gitconfig >> ~/.gitconfig
+curl https://gitlab.com/m.devrees/configuration/-/raw/master/zsh-aliases/custom_aliases.zsh >> $ZSH_CUSTOM/
 
 ```
 ## G810-led
