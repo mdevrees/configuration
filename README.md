@@ -10,9 +10,9 @@ curl https://raw.githubusercontent.com/mdevrees/configuration/master/.gitconfig 
 
 or via gitlab
 ```bash
-curl https://gitlab.com/mdevrees/configuration/-/raw/master/.bashrc >> ~/.bashrc
-curl https://gitlab.com/mdevrees/configuration/-/raw/master/.screenrc >> ~/.screenrc
-curl https://gitlab.com/mdevrees/configuration/-/raw/master/.gitconfig >> ~/.gitconfig
+curl https://gitlab.com/m.devrees/configuration/-/raw/master/.bashrc >> ~/.bashrc
+curl https://gitlab.com/m.devrees/configuration/-/raw/master/.screenrc >> ~/.screenrc
+curl https://gitlab.com/m.devrees/configuration/-/raw/master/.gitconfig >> ~/.gitconfig
 
 ```
 ## G810-led
