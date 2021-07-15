@@ -14,6 +14,7 @@ curl https://gitlab.com/m.devrees/configuration/-/raw/master/.bashrc >> ~/.bashr
 curl https://gitlab.com/m.devrees/configuration/-/raw/master/.screenrc >> ~/.screenrc
 curl https://gitlab.com/m.devrees/configuration/-/raw/master/.gitconfig >> ~/.gitconfig
 curl https://gitlab.com/m.devrees/configuration/-/raw/master/zsh-aliases/custom-aliases.zsh >> $ZSH_CUSTOM/custom-aliases.zsh
+curl https://gitlab.com/m.devrees/configuration/-/raw/master/zsh-aliases/virtualenvwrapper.zsh >> $ZSH_CUSTOM/virtualenvwrapper.zsh
 
 ```
 ## G810-led
